@@ -53,10 +53,10 @@ nav a {
 
 .btn {
     background-color: rgb(0, 0, 83);
-    padding: 15px 32px;
+    padding: 12px 28px;
     transition-duration: 0.5s;
     display: inline-block;
-    margin: 4px 2px;
+    margin: 4px 4px;
     border-radius: 12px;
 }
 
@@ -83,7 +83,7 @@ main {
 }
 
 .heroleft h3 {
-    font-size: 70px;
+    font-size: 55px;
     margin-bottom: 20px;
     position: relative;
 }
@@ -129,7 +129,7 @@ main {
     max-width: 850px;
     margin: auto;
     border-radius: 25px;
-    background: rgb(125, 125, 185);
+    background: white;
     box-shadow: 0px 10px 50px rgba(252, 56, 56, .3);
 }
 
@@ -197,6 +197,7 @@ main {
 #tap-3:checked~.inner-part .content-3 {
     opacity: 1;
     margin-left: 0px;
+    z-index: 100;
     transition-delay: .3s;
 }
 
@@ -275,6 +276,9 @@ input[type="checkbox"] {
     transform: scaleX(1);
     width: 100%;
 }
+
+
+/*        Footer  */
 
 .footer-basic {
     padding: 40px 0;
